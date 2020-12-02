@@ -1,0 +1,32 @@
+{
+    "theme_color": "#fbbaa9",
+    "background_color": "#fbbaa9",
+    "display": "standalone",
+    "scope": "/morra-cincese-pwa/",
+    "start_url": "/https://armando233-abc.github.io/morra-cincese-pwa/",
+    "app_name": "Morra Cinese",
+    "short_name": "Morra ",
+    "description": "App di prova",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
