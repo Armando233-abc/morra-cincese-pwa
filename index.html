@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <h1 id="titolo">MORRA CINESE</h1>
+    </div>
+        
+    <div id="scelte">
+        <div id="scelta_utente">
+            <h1>Utente: <span id="utente">0</span></h1>
+            <img src="img/bg.png" alt="">
+        </div>
+        <div id="immagine_verdetto">
+            <h1>Verdetto</h1>
+            <img src="img/bg.png" alt="">
+        </div>
+        <div id="scelta_computer">
+            <h1>Computer: <span id="computer">0</span></h1>
+            <img src="img/bg.png" alt="">
+        </div>
+    </div>
+
+    <div class="bottoni">
+        <button id="sasso" onclick="scelta_utente('sasso')">
+            <img src="img/sasso.svg" alt="">
+        </button>
+
+        <button id="carta" onclick="scelta_utente('carta')">
+            <img src="img/carta.svg" alt="">
+        </button>
+
+        <button id="forbici" onclick="scelta_utente('forbici')">
+            <img src="img/forbici.svg" alt="">
+        </button>
+    </div>
+
+</body>
+</html>
